@@ -1,11 +1,12 @@
 ## pdd
----
 
-### Introduction  
+### Introduction
+---
 pdd is the parallel version of the GNU/Linux native tool **dd**. It provides better IO performance on NVMe drives.
 pdd spawns several threads for the data transportation job. Each thread is bond to one CPU core to achieve best efficiency.
 
-### Installation  
+### Installation
+---
 #### 1. For user
 Just download the latest release tar package, and:
 ```shell
@@ -23,7 +24,8 @@ make
 make dist   # build a tarball of the project containing all of the files we need to distribute
 ```
 
-### Usage  
+### Usage
+---
 #### 1. Basics
 To use this tool, at least 3 parameters must be supplied:
 * source device file
@@ -60,7 +62,8 @@ synchronously.
 
 But if you use this flag on files wihch do not support direct access mode, pdd will fail.
 
-### Reporting bugs or suggestions  
+### Reporting bugs or suggestions
+---
 It is likely that you will encounter bugs in **pdd** or if you want more functionalities. I would like to hear about it. As the
 purpose of bug reporting is to improve software, please be sure to include maximum information when reporting a bug. The information
 needed is:
