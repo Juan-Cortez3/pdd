@@ -16,12 +16,10 @@ Just download the latest release tar package, and:
 #### 2. For software contributor
 clone this repo and:
 ```shell
-aclocal     # set up an m4 environment
-autoconf    # generate configure from configure.ac
-automake --add-missing # Generate Makefile.in from Makefile.am
+./autogen.sh
 ./configure # Generate Makefile from Makefile.am
 make
-make dist   # build a tarball of the project containing all of the files we need to distribute
+sudo make install
 ```
 
 ### Usage
