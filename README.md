@@ -10,7 +10,7 @@ pdd spawns several threads for the data transportation job. Each thread is bond 
 #### 1. For user
 Just download the latest release tar package, and:
 ```shell
-./configure && make %% sudo make install
+./configure && make && sudo make install
 ```
 
 #### 2. For software contributor
